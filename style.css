@@ -4,3 +4,28 @@ body {
   background-color: thistle;
   font-family: 'Roboto Mono', monospace;
 }
+
+nav {
+  display: block;
+}
+
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+}
+
+nav>ul>li {
+  display: inline-block;
+  float: left;
+}
+
+nav>ul>li>a,
+p#current {
+
+  background-color: #c0c0FF;
+  display: inline;
+  padding: 8px;
+}
